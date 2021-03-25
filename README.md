@@ -1,3 +1,8 @@
+This MagmaLabs fork updates mimemagic version in paperclip to 0.3.7 in order to keep using paperclip
+with Rails 4.2
+========
+
+
 Paperclip
 =========
 
