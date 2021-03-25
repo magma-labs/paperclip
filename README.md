@@ -1,3 +1,12 @@
+This fork exists to ensure dependencies of wildstock are available
+========
+##
+On march 2021 mimemagic 0.3 was yanked due to licensing issues. 
+##
+Paperclip depends on mimemagic 0.3.0, and wildstock uses Paperclip 4.3
+##
+This fork patches Paperclip's dependencies to use an available version of mimemagic
+
 Paperclip
 =========
 
