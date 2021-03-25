@@ -7,7 +7,7 @@ Gem::Specification.new do |s|
   s.platform          = Gem::Platform::RUBY
   s.author            = "Jon Yurek"
   s.email             = ["jyurek@thoughtbot.com"]
-  s.homepage          = "https://github.com/thoughtbot/paperclip"
+  s.homepage          = "https://github.com/magma-labs/paperclip"
   s.summary           = "File attachments as attributes for ActiveRecord"
   s.description       = "Easy upload management for ActiveRecord"
   s.license           = "MIT"
@@ -24,7 +24,7 @@ Gem::Specification.new do |s|
   s.add_dependency('activesupport', '>= 3.2.0')
   s.add_dependency('cocaine', '~> 0.5.5')
   s.add_dependency('mime-types')
-  s.add_dependency('mimemagic', '0.3.0')
+  s.add_dependency('mimemagic', '0.3.8')
 
   s.add_development_dependency('activerecord', '>= 3.2.0')
   s.add_development_dependency('shoulda')
